@@ -1,0 +1,204 @@
+-O0
+-O1
+-O2
+-O3
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fpredictive-commoning -fsched-spec -fstrict-aliasing -ftree-vectorize -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fipa-cp-clone -fsched-spec -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 --param max-unroll-times=32 -fexpensive-optimizations -fgcse-after-reload -finline-functions -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-overflow -fthread-jumps
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -fcrossjumping -fexpensive-optimizations -finline-functions -fpredictive-commoning -fstrict-aliasing -fthread-jumps -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vectorize
+-O1 --param max-unroll-times=2 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=8 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fstrict-aliasing -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=2 -finline-functions -fipa-cp-clone -fstrict-aliasing -ftree-vectorize -funroll-loops
+-O1 --param max-unroll-times=8 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fstrict-overflow -fthread-jumps -funroll-loops -funswitch-loops
+-O1 -fdelete-null-pointer-checks -fexpensive-optimizations -fsched-spec -fstrict-aliasing -funswitch-loops
+-O1 --param max-unroll-times=16 -fexpensive-optimizations -fipa-cp-clone -fsched-spec -fstrict-aliasing -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-labels -fgcse-after-reload -finline-functions -fpredictive-commoning -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=16 -falign-labels -fgcse-after-reload -finline-functions -fpredictive-commoning -fstrict-aliasing -fthread-jumps -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fthread-jumps -ftree-vrp
+-O1 -falign-loops -fexpensive-optimizations -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-labels -fcrossjumping -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -fexpensive-optimizations -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize
+-O1 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fthread-jumps
+-O1 -falign-labels -falign-loops -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -ftree-vectorize
+-O1 -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-overflow -fthread-jumps -ftree-vrp
+-O1 --param max-unroll-times=2 -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fstrict-aliasing -fstrict-overflow -fthread-jumps -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-loops -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-loops -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-aliasing -funroll-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fipa-cp-clone -fstrict-overflow -ftree-vrp -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fgcse-after-reload -funswitch-loops
+-O1 -finline-functions -fipa-cp-clone -fpredictive-commoning -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fstrict-aliasing -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -fthread-jumps -funroll-loops -funswitch-loops
+-O1 -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fsched-spec -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fsched-spec -fstrict-overflow -fthread-jumps -funswitch-loops
+-O1 -falign-labels -falign-loops -fexpensive-optimizations -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vrp -funswitch-loops
+-O1 -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -ftree-vectorize -ftree-vrp
+-O1 --param max-unroll-times=16 -falign-labels -falign-loops -fgcse-after-reload -ftree-vectorize -funroll-loops
+-O1 --param max-unroll-times=2 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -fthread-jumps -funroll-loops
+-O1 --param max-unroll-times=16 -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fpredictive-commoning -fthread-jumps -funroll-loops
+-O1 -falign-loops -fcrossjumping -finline-functions -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp
+-O1 --param max-unroll-times=32 -falign-labels -fcrossjumping -fipa-cp-clone -fstrict-aliasing -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -fcrossjumping -fexpensive-optimizations -fipa-cp-clone -fsched-spec -fthread-jumps -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fsched-spec -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -fdelete-null-pointer-checks -fgcse-after-reload -fpredictive-commoning -fsched-spec -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-loops -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fstrict-overflow -fthread-jumps -funroll-loops
+-O1 --param max-unroll-times=4 -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fstrict-aliasing -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fipa-cp-clone -fstrict-aliasing -fstrict-overflow -fthread-jumps
+-O1 --param max-unroll-times=4 -fcrossjumping -fexpensive-optimizations -fipa-cp-clone -fstrict-overflow -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-loops -fgcse-after-reload -finline-functions -fsched-spec -fstrict-aliasing -fstrict-overflow -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fipa-cp-clone -fstrict-aliasing -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=32 -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-loops -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fgcse-after-reload -fsched-spec -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fipa-cp-clone -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 -falign-loops -fgcse-after-reload -finline-functions -fpredictive-commoning -fthread-jumps -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-labels -fcrossjumping -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-overflow -funroll-loops
+-O1 -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp
+-O1 --param max-unroll-times=32 -falign-labels -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fstrict-aliasing -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fipa-cp-clone -fstrict-overflow -ftree-vrp -funroll-loops
+-O1 -falign-labels -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=2 -fcrossjumping -finline-functions -fpredictive-commoning -fsched-spec -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -ftree-vectorize -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vrp -funswitch-loops
+-O1 -fgcse-after-reload -finline-functions -fipa-cp-clone -fthread-jumps -ftree-vectorize
+-O1 -falign-labels -fcrossjumping -fgcse-after-reload -fipa-cp-clone -fstrict-overflow -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -fcrossjumping -fexpensive-optimizations -fpredictive-commoning -fsched-spec -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fipa-cp-clone -fstrict-overflow -fthread-jumps
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fipa-cp-clone -fpredictive-commoning -fthread-jumps -funroll-loops -funswitch-loops
+-O1 -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-aliasing -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-loops -finline-functions -fipa-cp-clone -fsched-spec -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing
+-O1 -falign-labels -fcrossjumping -fipa-cp-clone -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp
+-O1 -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fsched-spec -fstrict-aliasing -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=16 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -funroll-loops
+-O1 --param max-unroll-times=16 -falign-loops -fgcse-after-reload -fpredictive-commoning -fstrict-overflow -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=8 -fdelete-null-pointer-checks -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-overflow -fthread-jumps -ftree-vrp -funroll-loops
+-O1 -falign-labels -falign-loops -fexpensive-optimizations -fgcse-after-reload -finline-functions -fsched-spec -fstrict-overflow -fthread-jumps
+-O1 -falign-labels -falign-loops -fgcse-after-reload -fipa-cp-clone -fstrict-overflow -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 -falign-loops -fgcse-after-reload -finline-functions -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -ftree-vrp -funroll-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -finline-functions -fpredictive-commoning -fsched-spec -ftree-vectorize -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fpredictive-commoning -fsched-spec -fstrict-overflow -fthread-jumps
+-O1 --param max-unroll-times=8 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fsched-spec -funroll-loops
+-O1 --param max-unroll-times=8 -falign-labels -falign-loops -finline-functions -fsched-spec -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -falign-labels -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fstrict-overflow -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps
+-O1 --param max-unroll-times=2 -falign-loops -fdelete-null-pointer-checks -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fgcse-after-reload -finline-functions -fpredictive-commoning -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 -fdelete-null-pointer-checks -fstrict-aliasing -fthread-jumps -ftree-vectorize
+-O1 --param max-unroll-times=8 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fsched-spec -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-overflow
+-O1 --param max-unroll-times=8 -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -funroll-loops
+-O1 --param max-unroll-times=32 -falign-labels -falign-loops -fcrossjumping -fgcse-after-reload -fsched-spec -fthread-jumps -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=8 -fipa-cp-clone -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fipa-cp-clone -fstrict-aliasing
+-O1 --param max-unroll-times=8 -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fipa-cp-clone -fsched-spec -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-loops -fipa-cp-clone -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funroll-loops
+-O1 -falign-loops -fexpensive-optimizations -fgcse-after-reload -finline-functions -fstrict-aliasing -ftree-vectorize
+-O1 --param max-unroll-times=2 -falign-labels -falign-loops -fcrossjumping -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -funroll-loops -funswitch-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-aliasing -fthread-jumps -funswitch-loops
+-O1 --param max-unroll-times=16 -falign-labels -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fdelete-null-pointer-checks -fstrict-aliasing -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fdelete-null-pointer-checks -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=32 -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fpredictive-commoning -funroll-loops
+-O1 --param max-unroll-times=2 -falign-labels -fcrossjumping -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -ftree-vrp -funroll-loops
+-O1 -falign-loops -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vrp
+-O1 -falign-labels -falign-loops -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -ftree-vrp
+-O1 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vectorize
+-O1 -falign-loops -fdelete-null-pointer-checks -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp
+-O1 --param max-unroll-times=8 -falign-loops -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-labels -falign-loops -fcrossjumping -finline-functions -fpredictive-commoning -fstrict-overflow -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 --param max-unroll-times=8 -falign-labels -fexpensive-optimizations -fgcse-after-reload -finline-functions -fipa-cp-clone -fsched-spec -fstrict-overflow -funroll-loops
+-O1 -falign-labels -fexpensive-optimizations -finline-functions -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-labels -falign-loops -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fthread-jumps -funswitch-loops
+-O1 -falign-loops -fexpensive-optimizations -finline-functions -fpredictive-commoning -fthread-jumps -funswitch-loops
+-O1 -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-labels -falign-loops -fexpensive-optimizations -fpredictive-commoning -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -ftree-vrp
+-O1 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-aliasing -fthread-jumps -funswitch-loops
+-O1 --param max-unroll-times=4 -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -fstrict-aliasing -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=32 -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fstrict-aliasing -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=2 -falign-labels -falign-loops -fcrossjumping -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -falign-labels -fexpensive-optimizations -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 --param max-unroll-times=4 -falign-labels -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=16 -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=8 -falign-labels -fcrossjumping -fgcse-after-reload -finline-functions -fstrict-overflow -ftree-vectorize -funroll-loops
+-O1 --param max-unroll-times=8 -falign-loops -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 -fcrossjumping -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fthread-jumps -ftree-vectorize
+-O1 --param max-unroll-times=2 -falign-labels -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fpredictive-commoning -fsched-spec -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 -fdelete-null-pointer-checks -fipa-cp-clone -fpredictive-commoning -fstrict-overflow -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fpredictive-commoning -fstrict-aliasing -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-labels -falign-loops -fexpensive-optimizations -finline-functions -fipa-cp-clone -fsched-spec -fstrict-aliasing -ftree-vectorize -funswitch-loops
+-O1 -fcrossjumping -fipa-cp-clone -fstrict-aliasing -fstrict-overflow -ftree-vectorize -funswitch-loops
+-O1 -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fsched-spec -ftree-vectorize
+-O1 -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fpredictive-commoning -fstrict-overflow
+-O1 --param max-unroll-times=32 -falign-loops -fdelete-null-pointer-checks -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -funroll-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -fthread-jumps -ftree-vectorize
+-O1 --param max-unroll-times=16 -falign-labels -fgcse-after-reload -finline-functions -fipa-cp-clone -fsched-spec -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=4 -falign-loops -fdelete-null-pointer-checks -finline-functions -fpredictive-commoning -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fipa-cp-clone -fpredictive-commoning -fthread-jumps -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-loops -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fipa-cp-clone -fpredictive-commoning -fstrict-aliasing -fthread-jumps -ftree-vrp
+-O1 --param max-unroll-times=8 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fpredictive-commoning -fsched-spec -fstrict-overflow -funroll-loops
+-O1 --param max-unroll-times=4 -falign-loops -fcrossjumping -fpredictive-commoning -fstrict-aliasing -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-labels -finline-functions -fipa-cp-clone -fpredictive-commoning -fsched-spec -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -fcrossjumping -fexpensive-optimizations -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -ftree-vrp
+-O1 -falign-labels -fcrossjumping -finline-functions -fipa-cp-clone -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=16 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fpredictive-commoning -fstrict-aliasing -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fstrict-aliasing -ftree-vectorize
+-O1 -falign-loops -fcrossjumping -finline-functions -fipa-cp-clone -fsched-spec -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fsched-spec -fstrict-overflow -fthread-jumps -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fcrossjumping -fpredictive-commoning -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 --param max-unroll-times=4 -falign-labels -falign-loops -fcrossjumping -fgcse-after-reload -fstrict-aliasing -fthread-jumps -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fsched-spec -fstrict-aliasing -fstrict-overflow -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fthread-jumps -funswitch-loops
+-O1 -fcrossjumping -fgcse-after-reload -fipa-cp-clone -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-loops -fcrossjumping -fgcse-after-reload -finline-functions -fsched-spec -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=8 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fstrict-overflow -fthread-jumps -ftree-vectorize -funroll-loops -funswitch-loops
+-O1 -falign-loops -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-overflow -fthread-jumps -ftree-vectorize
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fstrict-aliasing
+-O1 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -finline-functions -fipa-cp-clone -fsched-spec -fstrict-overflow -ftree-vectorize -ftree-vrp -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=4 -falign-loops -fcrossjumping -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fipa-cp-clone -fpredictive-commoning -fstrict-overflow -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-loops -fipa-cp-clone -ftree-vectorize -funswitch-loops
+-O1 --param max-unroll-times=16 -falign-loops -fdelete-null-pointer-checks -fexpensive-optimizations -finline-functions -fpredictive-commoning -fstrict-aliasing -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -fdelete-null-pointer-checks -finline-functions -fpredictive-commoning -fstrict-aliasing -fstrict-overflow -ftree-vrp
+-O1 -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
+-O1 -falign-loops -fgcse-after-reload -fstrict-aliasing -fthread-jumps -ftree-vrp
+-O1 --param max-unroll-times=8 -falign-labels -falign-loops -fcrossjumping -fexpensive-optimizations -finline-functions -fthread-jumps -ftree-vectorize -ftree-vrp -funroll-loops
+-O1 --param max-unroll-times=16 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fsched-spec -fthread-jumps -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -falign-loops -fexpensive-optimizations -fipa-cp-clone -fpredictive-commoning -fsched-spec -fstrict-aliasing -fthread-jumps -ftree-vectorize -ftree-vrp
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fstrict-overflow
+-O1 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fsched-spec -fstrict-aliasing -ftree-vectorize -ftree-vrp
+-O1 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps
+-O1 --param max-unroll-times=8 -falign-labels -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fpredictive-commoning -fsched-spec -fstrict-overflow -fthread-jumps -ftree-vectorize -funroll-loops
+-O1 -falign-labels -fcrossjumping -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -fipa-cp-clone -fpredictive-commoning -fsched-spec -ftree-vrp
+-O1 -falign-labels -fcrossjumping -fexpensive-optimizations -finline-functions -fipa-cp-clone -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-loops -fcrossjumping -fexpensive-optimizations -fgcse-after-reload -finline-functions -fsched-spec -fstrict-overflow -funroll-loops -funswitch-loops
+-O1 --param max-unroll-times=32 -falign-loops -fcrossjumping -fdelete-null-pointer-checks -fgcse-after-reload -finline-functions -fipa-cp-clone -fstrict-overflow -ftree-vrp -funroll-loops -funswitch-loops
+-O1 -falign-labels -fdelete-null-pointer-checks -fexpensive-optimizations -fgcse-after-reload -finline-functions -fsched-spec -fstrict-aliasing -fstrict-overflow -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 -falign-loops -fgcse-after-reload -fstrict-aliasing -fthread-jumps -ftree-vrp -funswitch-loops
+-O1 -fcrossjumping -fdelete-null-pointer-checks -fstrict-overflow -fthread-jumps -ftree-vectorize -ftree-vrp -funswitch-loops
